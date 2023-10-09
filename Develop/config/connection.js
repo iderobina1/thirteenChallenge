@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
-//created varible with help of Emiliano (proferror)
+//created varible with help of Emiliano (professor due to v error on .env (update ios))
 let sequelize;
 
 if (process.env.JAWSDB_URL) {
